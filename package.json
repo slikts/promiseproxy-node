@@ -1,0 +1,39 @@
+{
+  "name": "promiseproxy-chrome",
+  "version": "1.0.1",
+  "description": "Extremely lightweight Proxy-based promisified Chrome API wrapper",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "promiseproxy": "^1.0.1"
+  },
+  "devDependencies": {
+    "sinon-chrome": "^1.1.2",
+    "tape": "^4.5.1"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "build": "node ./bin/build.js > schema.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/slikts/promiseproxy-chrome.git"
+  },
+  "keywords": [
+    "chrome"
+  ],
+  "author": "slikts <dabas@untu.ms>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slikts/promiseproxy-chrome/issues"
+  },
+  "homepage": "https://github.com/slikts/promiseproxy-chrome#readme",
+  "files": [
+    "index.js",
+    "schema.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
