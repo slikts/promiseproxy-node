@@ -1,3 +1,4 @@
+/* Generated from api.json */
 module.exports = {
   cluster: {
     disconnect: 0

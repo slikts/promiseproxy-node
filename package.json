@@ -1,5 +1,5 @@
 {
-  "name": "promiseproxy-chrome",
+  "name": "promiseproxy-node",
   "version": "1.0.0",
   "description": "Extremely lightweight Proxy-based promisified Node.js API wrapper",
   "main": "index.js",

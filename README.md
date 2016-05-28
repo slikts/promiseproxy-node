@@ -18,6 +18,7 @@ npm install promiseproxy-node
 
 ```js
 const PromiseProxyNode = require('promiseproxy-node')
+// Supported modules: crypto, dns, fs, cluster, http, https, tls, dgram, zlib
 const fs = PromiseProxyNode('fs')
 // Callback-style still works
 fs.chmod(path, mode, callback)
