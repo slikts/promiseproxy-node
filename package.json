@@ -1,7 +1,7 @@
 {
   "name": "promiseproxy-chrome",
-  "version": "1.0.1",
-  "description": "Extremely lightweight Proxy-based promisified Chrome API wrapper",
+  "version": "1.0.0",
+  "description": "Extremely lightweight Proxy-based promisified Node.js API wrapper",
   "main": "index.js",
   "directories": {
     "test": "test"

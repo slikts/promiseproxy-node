@@ -17,10 +17,12 @@ npm install promiseproxy-node
 ## Usage
 
 ```js
-// Promisify the global chrome object
-const _chrome = require('promiseproxy-chrome')(chrome)
-// Callback methods return promises when the callback parameter is null or undefined
-_chrome.tabs.query(info).then(callback)
+const PromiseProxyNode = require('promiseproxy-node')
+const fs = PromiseProxyNode('fs')
+// Callback-style still works
+fs.chmod(path, mode, callback)
+// Omitting the callback parameter returns a promise
+fs.chmod(path, mode).then(callback)
 ```
 
 ### Build
