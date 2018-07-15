@@ -1,4 +1,4 @@
-[![view on npm](http://img.shields.io/npm/v/promiseproxy-node.svg)](https://www.npmjs.org/package/promiseproxy-node)
+[![view on npm](http://img.shields.io/npm/v/promiseproxy-node.svg)](https://www.npmjs.org/package/promiseproxy-node) [![Greenkeeper badge](https://badges.greenkeeper.io/slikts/promiseproxy-node.svg)](https://greenkeeper.io/)
 
 # Promisified Node.js API
 
